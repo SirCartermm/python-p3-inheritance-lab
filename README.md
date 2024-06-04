@@ -112,3 +112,23 @@ introspection** works in Python, when multiple classes define the same method.
 - [Inheritance - Python](https://docs.python.org/3/tutorial/classes.html#inheritance)
 - [Inheritance and Composition: A Python OOP Guide - Real Python](https://realpython.com/inheritance-composition-python/)
 - [Python Metaclasses - Real Python](https://realpython.com/python-metaclasses)
+Inheritance and Polymorphism Lab
+================================
+
+This lab explores the concepts of inheritance and polymorphism in Python. It defines a hierarchy of classes, including `User`, `Teacher`, and `Student`, and demonstrates how to use inheritance to share behavior between classes.
+
+Files
+-----
+
+* `lib/user.py`: Defines the `User` class, which has `first_name` and `last_name` attributes.
+* `lib/teacher.py`: Defines the `Teacher` class, which inherits from `User` and has a `knowledge` attribute and a `teach` method.
+* `lib/student.py`: Defines the `Student` class, which inherits from `User` and has a `knowledge` attribute and a `learn` method.
+* `tests/test_user.py`: Tests for the `User` class.
+* `tests/test_teacher.py`: Tests for the `Teacher` class.
+* `tests/test_student.py`: Tests for the `Student` class.
+* `conftest.py`: Defines fixtures for the tests.
+
+How to Run the Tests
+--------------------
+
+To run the tests, use the following command in the terminal:

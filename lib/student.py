@@ -1,3 +1,6 @@
+from lib.user import User
+
+
 class Student(User):
     def _init__(self, first_name, last_name):
         super().__init__(first_name, last_name)
@@ -5,4 +8,3 @@ class Student(User):
 
     def learn(self, knowledge):
         self.knowlegde.append(knowledge)
-        
